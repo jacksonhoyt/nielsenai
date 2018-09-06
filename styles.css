@@ -1,0 +1,110 @@
+/**************************************
+/
+/ STYLESHEET USED TO FORMAT
+/ AUTOMATED INSIGHTS EMAILS
+/
+/**************************************/
+
+
+/**************************************
+/FORMAT TOP3/BOTTOM3 TABLE
+/**************************************/
+
+.table-top-bottom {
+   border: 0px;
+   cellpadding: 0px;
+   cellspacing: 0px;
+   color: #606266;
+   font-family: Helvetica;
+   font-size: 10px;
+   width: 550px;
+}
+
+.table-divider {
+	background-color: #707276;
+}
+
+.table-top-bottom .table-footer {
+	background-color: #019dd8;
+  color: #FFFFFF;
+  font-family: Helvetica;
+  font-size: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  height: 8px;
+  text-align: center;
+}
+
+.tr-top-bottom {
+	border-color: coral;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.img-title {
+  display: block;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 0px;
+  padding:0px;
+  text-align:center;
+  width: 160px;
+}
+
+.img-top-bottom-arrow {
+  display: block;
+  height: 60px;
+  outline: 0px;
+  padding:0px;
+  text-align:left;
+  width: 50px;
+}
+
+.img-gray-bar {
+  display: block;
+  height: 5px;
+  outline: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 550px;
+}
+
+.column-headers {
+	background-color: white;
+  border: 1px solid #019dd8;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+}
+
+.td-description {
+  width: 150px;
+}
+
+.td-dollar {
+  text-align: right;
+  width: 50px;
+}
+
+.td-bps {
+  font-style: italic;
+  text-align: right;
+  width: 50px;
+}
+
+.td-danger {
+	color: #d60037;
+}
+
+.td-img-top-bottom-arrow {
+  width: 50px;
+}
+
+
+/**************************************
+/FORMAT LATEST 13W CATEGORY BAR CHART
+/**************************************/
