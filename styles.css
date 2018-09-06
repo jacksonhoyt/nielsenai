@@ -21,11 +21,11 @@
 }
 
 .table-divider {
-	background-color: #707276;
+  background-color: #707276;
 }
 
-.table-top-bottom .table-footer {
-	background-color: #019dd8;
+.table-footer {
+  background-color: #019dd8;
   color: #FFFFFF;
   font-family: Helvetica;
   font-size: 10px;
