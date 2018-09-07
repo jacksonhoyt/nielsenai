@@ -35,13 +35,6 @@
   text-align: center;
 }
 
-.tr-top-bottom {
-	border-color: coral;
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
-}
-
 .img-title {
   display: block;
   height: 50px;
@@ -72,7 +65,7 @@
 }
 
 .column-headers {
-	background-color: white;
+  background-color: white;
   border: 1px solid #019dd8;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -82,6 +75,7 @@
 }
 
 .td-description {
+  padding-left: 3px;
   width: 150px;
 }
 
@@ -97,7 +91,7 @@
 }
 
 .td-danger {
-	color: #d60037;
+  color: #d60037;
 }
 
 .td-img-top-bottom-arrow {
@@ -106,5 +100,56 @@
 
 
 /**************************************
-/FORMAT LATEST 13W CATEGORY BAR CHART
+/FORMAT CATEGORY PERFORMANCE BAR CHART
 /**************************************/
+
+.table-cat-perf {    	                
+	border-spacing: 4px;
+	color:#707276;
+	font-family: Helvetica;
+	text-align: left;
+	width: 550px;
+}
+    
+.table-cat-perf .column-headers {
+	color: #019dd8;                        
+	text-align: center;
+	width: 100%;
+}
+
+.table-cat-perf .td-description { 
+	display: block;
+	font-size: 15px;
+	overflow: hidden;	
+	text-overflow: ellipsis;        	
+	white-space: nowrap;
+}    
+
+.td-bar-chart {
+	width: 35%;
+}    
+
+.td-bar-chart table {
+	width: 100%;
+}
+
+.td-bar-positive {
+	background-color: #85c63f;
+	border: 1px solid green;
+	height: 100%;
+}
+
+.td-bar-label-positive {
+	float: left;
+}
+
+.td-bar-negative {
+	background-color: #d60037;
+	border: 1px solid #b21039;
+	height: 100%;
+}
+
+.td-bar-label-negative {
+	float: right;
+	white-space: nowrap;
+}
